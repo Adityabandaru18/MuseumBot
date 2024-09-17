@@ -18,7 +18,7 @@ const BookingComponent = ({ title,subtitle, times, bookings, remaining }) => {
             <p className='book-count'>{remaining[index]}</p>
           </div>
         ))}
-      </div>sz
+      </div>
       <button className='stop-btn'>Stop Booking</button>
     </div>
   );
